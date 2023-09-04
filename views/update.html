@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/styleContact.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Update Contact</h1>
+      <form action="/update" method="post" class="myForm">
+        <input type="text" class="myInput" name="id" placeholder="Enter Contact ID">
+        <input type="text" class="myInput" name="name" placeholder="Enter new name">
+        <input type="phone" class="myInput" name="phone" placeholder="Enter new phone number">
+        <input type="email" class="myInput" name="email" placeholder="Enter new email id">
+        <input type="text" class="myInput" name="address" placeholder="Enter new address">
+        <input type="text" class="myInput" name="desc" placeholder="Enter new concern">
+        <button class="btn">Update</button>
+      </form>
+    </div>
+    <script src="../static/index.js"></script>
+  </body>
+</html>
